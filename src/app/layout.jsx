@@ -18,6 +18,21 @@ const geistMono = localFont({
 export const metadata = {
   title: "Techlight Shop",
   description: "Techlight shop seguridad inteligente",
+  openGraph: {
+    type: "website", // Tipo de contenido (puedes cambiarlo según sea necesario)
+    url: "https://techlight-sop.vercel.app/", // La URL de tu página
+    title: "Techlight Shop", // Título que se mostrará en Open Graph
+    description: "Techlight shop seguridad inteligente", // Descripción de la página
+    images: [
+      {
+        url: "https://techlightshop.com/images/LogoMenu.png", // URL de la imagen
+        width: 800, // Ancho de la imagen
+        height: 600, // Altura de la imagen
+        alt: "Techlight Shop Logo", // Texto alternativo
+      },
+    ],
+    siteName: "Techlight Shop", // Nombre de tu sitio
+  },
 };
 
 export default function RootLayout({ children }) {

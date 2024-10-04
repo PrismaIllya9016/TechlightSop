@@ -25,7 +25,7 @@ export const metadata = {
     description: "Techlight shop seguridad inteligente", // Descripción de la página
     images: [
       {
-        url: "https://techlightshop.com/images/LogoMenu.png", // URL de la imagen
+        url: "https://techlight-sop.vercel.app/images/LogoMenu.png", // URL de la imagen
         width: 800, // Ancho de la imagen
         height: 600, // Altura de la imagen
         alt: "Techlight Shop Logo", // Texto alternativo
